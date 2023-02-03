@@ -14,3 +14,15 @@ html {
 .banner {
   background-color: blanchedalmond;
 }
+.banner img {
+  width: 300px;
+  animation: rotation 120s linear infinite;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
