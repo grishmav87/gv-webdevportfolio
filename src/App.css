@@ -1,3 +1,16 @@
 body {
   background-color: bisque;
 }
+a {
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+.navbar {
+  background-color: aliceblue;
+}
+.banner {
+  background-color: blanchedalmond;
+}
