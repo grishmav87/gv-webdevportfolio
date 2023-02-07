@@ -26,3 +26,7 @@ html {
     transform: rotate(359deg);
   }
 }
+.skills-icons {
+  text-align: center;
+  display: inline-block;
+}
