@@ -25,7 +25,7 @@ export default function Projects() {
     },
   };
   return (
-    <section className="projects pt-2 pb-2">
+    <section className="projects pt-3 pb-3">
       <Container>
         <h2>Projects</h2>
         <Carousel

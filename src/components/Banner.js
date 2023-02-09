@@ -12,14 +12,14 @@ import {
 
 export default function Banner() {
   return (
-    <section className="banner">
+    <section className="banner pt-3 pb-3">
       <Container>
-        <Row className="align-items-center pt-2 pb-2">
+        <Row className="align-items-center ">
           <Col xs={12} md={6} xl={7}>
             <h5>Welcome!</h5>
             <h1>I'm Grishma,</h1>
             <h2>Front end developer</h2>
-            <Row>
+            <Row className="pt-3 pb-3">
               <Col>
                 <div className="skills-icons">
                   <FontAwesomeIcon icon={faJs} size="2x" /> <br />

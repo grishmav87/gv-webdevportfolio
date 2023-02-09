@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
@@ -68,29 +65,6 @@ export default function NavBar() {
               Contact
             </Nav.Link>
           </Nav>
-          <span className="navbar-text">
-            <div className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/grishma-vadlamani/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-              <a
-                href="https://github.com/grishmav87"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-              <a href="mailto:grishma.vadlamani@gmail.com">
-                {" "}
-                <FontAwesomeIcon icon={faEnvelope} />
-              </a>
-            </div>
-          </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>
