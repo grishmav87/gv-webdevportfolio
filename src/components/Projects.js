@@ -29,19 +29,18 @@ export default function Projects() {
       <Container>
         <h2>Projects</h2>
         <Carousel
-          swipeable={false}
-          draggable={false}
+          swipeable={true}
+          draggable={true}
           showDots={true}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={false}
           responsive={responsive}
           ssr={true} // means to render carousel on server-side.
           infinite={true}
           keyBoardControl={true}
           customTransition="all .5"
           transitionDuration={500}
-          containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
           dotListClass="custom-dot-list-style"
-          itemClass="carousel-item-padding-40-px"
         >
           <div className="project-card">
             <Row>
