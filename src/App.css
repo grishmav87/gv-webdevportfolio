@@ -22,7 +22,13 @@ html {
 .header-img {
   width: 300px;
 }
-
+.banner Button {
+  background-color: sienna !important;
+  border: none;
+}
+.banner Button:hover {
+  background-color: saddlebrown !important;
+}
 .skills-icons {
   text-align: center;
 
@@ -51,14 +57,16 @@ html {
   margin: auto;
 }
 .project-btns Button {
-  background-color: #370344 !important;
+  background-color: sienna !important;
   border: none;
-  border-radius: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
   margin: 5px;
+}
+.project-btns Button:hover {
+  background-color: saddlebrown !important;
 }
 .projects a {
   color: white;

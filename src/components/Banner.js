@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/nautilusgears.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -52,9 +52,9 @@ export default function Banner() {
                 </div>
               </Col>
             </Row>
-            <button className="mt-2" onClick={() => console.log("connect")}>
+            <Button className="mt-2" onClick={() => console.log("connect")}>
               Let's connect <ArrowRightCircle size={15} />
-            </button>
+            </Button>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img
