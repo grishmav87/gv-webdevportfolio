@@ -2,9 +2,9 @@ import { Container } from "react-bootstrap";
 
 export default function Skills() {
   return (
-    <section className="about">
+    <section className="about pt-2 pb-2">
       <Container>
-        <h2 className=" pt-2 pb-2">About</h2>
+        <h2>About</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
