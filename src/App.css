@@ -1,5 +1,11 @@
-body {
-  background-color: bisque;
+.navbar {
+  background-color: aliceblue;
+}
+.banner {
+  background-color: #abbdcc;
+}
+.about {
+  background-color: #9dbcd6;
 }
 a {
   text-decoration: none;
@@ -8,25 +14,13 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
 }
-.navbar {
-  background-color: aliceblue;
-}
-.banner {
-  background-color: blanchedalmond;
-}
-.banner img {
+
+.header-img {
   width: 300px;
-  animation: rotation 120s linear infinite;
 }
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
+
 .skills-icons {
   text-align: center;
-  display: inline-block;
+
+  font-size: 12px;
 }
