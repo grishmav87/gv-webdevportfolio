@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 
 export default function NavBar() {
-  const [activeLink, setActiveLink] = useState("");
+  const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
   const [theme, setTheme] = useState("light");
 
@@ -43,7 +43,10 @@ export default function NavBar() {
             {" "}
           </Button>
         </div>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          className="navbar-dark"
+          aria-controls="basic-navbar-nav"
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-dark">
             <Nav.Link

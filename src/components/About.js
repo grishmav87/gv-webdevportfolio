@@ -1,4 +1,5 @@
-import { Container } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
+import CV from "../assets/Grishma_CVEd.pdf";
 
 export default function Skills() {
   return (
@@ -14,6 +15,11 @@ export default function Skills() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <Button className="contact-btn">
+          <a href={CV} download>
+            Download CV
+          </a>
+        </Button>
       </Container>
     </section>
   );
