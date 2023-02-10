@@ -7,7 +7,7 @@ import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 
 export default function Contact() {
   return (
-    <section className="contact pt-3 pb-3">
+    <section className="contact pt-3 pb-3" id="contact">
       <Container>
         <h2>Get in touch!</h2>
 

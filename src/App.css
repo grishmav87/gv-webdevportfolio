@@ -35,6 +35,10 @@ html {
 .banner Button:hover {
   background-color: saddlebrown !important;
 }
+.banner a {
+  text-decoration: none;
+  color: white;
+}
 .skills-icons {
   text-align: center;
   font-size: 12px;

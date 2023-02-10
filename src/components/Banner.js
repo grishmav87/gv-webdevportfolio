@@ -12,7 +12,7 @@ import {
 
 export default function Banner() {
   return (
-    <section className="banner pt-3 pb-3">
+    <section className="banner pt-3 pb-3" id="home">
       <Container>
         <Row className="align-items-center ">
           <Col xs={12} md={6} xl={7}>
@@ -52,8 +52,10 @@ export default function Banner() {
                 </div>
               </Col>
             </Row>
-            <Button className="mt-2" onClick={() => console.log("connect")}>
-              Let's connect <ArrowRightCircle size={15} />
+            <Button className="mt-2">
+              <a href="#contact">
+                Let's connect <ArrowRightCircle size={15} />
+              </a>
             </Button>
           </Col>
           <Col xs={12} md={6} xl={5}>

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function NavBar() {
-  const [activeLink, setActiveLink] = useState("home");
+  const [activeLink, setActiveLink] = useState("");
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -17,9 +17,9 @@ export default function NavBar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const onUpdateActiveLink = (value) => {
+  function onUpdateActiveLink(value) {
     setActiveLink(value);
-  };
+  }
 
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
@@ -33,7 +33,7 @@ export default function NavBar() {
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("home")}
+              onClick={onUpdateActiveLink}
             >
               Home
             </Nav.Link>
@@ -42,7 +42,7 @@ export default function NavBar() {
               className={
                 activeLink === "about" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("about")}
+              onClick={onUpdateActiveLink}
             >
               About
             </Nav.Link>
@@ -51,7 +51,7 @@ export default function NavBar() {
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("projects")}
+              onClick={onUpdateActiveLink}
             >
               Projects
             </Nav.Link>
@@ -60,7 +60,7 @@ export default function NavBar() {
               className={
                 activeLink === "contact" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("contact")}
+              onClick={onUpdateActiveLink}
             >
               Contact
             </Nav.Link>

@@ -25,7 +25,7 @@ export default function Projects() {
     },
   };
   return (
-    <section className="projects pt-3 pb-3">
+    <section className="projects pt-3 pb-3" id="projects">
       <Container>
         <h2>Projects</h2>
         <Carousel
@@ -58,10 +58,22 @@ export default function Projects() {
             </Row>
             <div className="project-btns d-flex">
               <Button>
-                <a href="/">View project</a>
+                <a
+                  href="https://weather-app-react-gv.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View project
+                </a>
               </Button>
               <Button>
-                <a href="/">View code</a>
+                <a
+                  href="https://github.com/grishmav87/weather-app-react"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View code
+                </a>
               </Button>
             </div>
           </div>
@@ -81,10 +93,22 @@ export default function Projects() {
             </Row>{" "}
             <div className="project-btns d-flex">
               <Button>
-                <a href="/">View project</a>
+                <a
+                  href="https://gilded-phoenix-721b05.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View project
+                </a>
               </Button>
               <Button>
-                <a href="/">View code</a>
+                <a
+                  href="https://github.com/grishmav87/dictionary-app-react"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View code
+                </a>
               </Button>
             </div>
           </div>
@@ -104,10 +128,22 @@ export default function Projects() {
             </Row>{" "}
             <div className="project-btns d-flex">
               <Button>
-                <a href="/">View project</a>
+                <a
+                  href="https://world-clock-gv.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View project
+                </a>
               </Button>
               <Button>
-                <a href="/">View code</a>
+                <a
+                  href="https://github.com/grishmav87/world-clock-project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View code
+                </a>
               </Button>
             </div>
           </div>
@@ -127,10 +163,22 @@ export default function Projects() {
             </Row>
             <div className="project-btns d-flex">
               <Button>
-                <a href="/">View project</a>
+                <a
+                  href="https://koto-landing-page.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View project
+                </a>
               </Button>
               <Button>
-                <a href="/">View code</a>
+                <a
+                  href="https://github.com/grishmav87/koto-project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View code
+                </a>
               </Button>
             </div>
           </div>
