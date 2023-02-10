@@ -16,7 +16,7 @@ export default function Banner() {
       <Container>
         <Row className="align-items-center ">
           <Col xs={12} md={6} xl={7}>
-            <h5>Welcome!</h5>
+            <h5>Hi!</h5>
             <h1>I'm Grishma,</h1>
             <h2>Front end developer</h2>
             <Row className="pt-3 pb-3">
@@ -62,7 +62,7 @@ export default function Banner() {
             <img
               src={headerImg}
               alt="header-img"
-              className="header-img img-fluid rotate"
+              className="header-img img-fluid rotate pt-4"
             ></img>
           </Col>
         </Row>
