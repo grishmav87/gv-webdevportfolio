@@ -1,6 +1,6 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/nautilusgears.png";
+import headerImg from "../assets/nautilus.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -62,7 +62,7 @@ export default function Banner() {
             <img
               src={headerImg}
               alt="header-img"
-              className="header-img img-fluid"
+              className="header-img img-fluid rotate"
             ></img>
           </Col>
         </Row>

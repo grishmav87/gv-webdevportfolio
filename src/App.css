@@ -95,3 +95,14 @@ a {
   padding: 0;
   margin: 0;
 }
+.rotate {
+  animation: rotation 5s infinite linear alternate;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(-10deg);
+  }
+}
