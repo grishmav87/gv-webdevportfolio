@@ -44,6 +44,7 @@ section {
 }
 .contact-btn:hover {
   background-color: saddlebrown !important;
+  transition: ease-in-out 150ms;
 }
 .contact-btn a {
   text-decoration: none;
@@ -86,6 +87,7 @@ section {
 }
 .project-btns Button:hover {
   background-color: saddlebrown !important;
+  transition: ease-in-out 150ms;
 }
 .projects a {
   color: white;
@@ -97,9 +99,4 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.contact a:hover {
-  color: saddlebrown;
-  transition: ease-in-out 150ms;
 }
