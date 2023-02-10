@@ -45,9 +45,9 @@ export default function Contact() {
             </Button>
           </Col>
         </Row>
-        <p>
+        <footer className="pt-4">
           <FontAwesomeIcon icon={faCopyright} /> 2023 All rights reserved
-        </p>
+        </footer>
       </Container>
     </section>
   );

@@ -46,7 +46,13 @@ export default function Projects() {
             <Row>
               <Col>
                 {" "}
-                <img src={Project1} alt="project-1"></img>
+                <a
+                  href="https://weather-app-react-gv.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Project1} alt="project-1"></img>
+                </a>{" "}
               </Col>
               <Col className="project-info ">
                 <h5>Weather app</h5>
@@ -81,7 +87,14 @@ export default function Projects() {
             <Row>
               <Col>
                 {" "}
-                <img src={Project2} alt="project-2"></img>
+                <a
+                  href="https://gilded-phoenix-721b05.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <img src={Project2} alt="project-2"></img>
+                </a>
               </Col>
               <Col className="project-info">
                 <h5>Dictionary app</h5>
@@ -116,7 +129,13 @@ export default function Projects() {
             <Row>
               <Col>
                 {" "}
-                <img src={Project3} alt="project-3"></img>
+                <a
+                  href="https://world-clock-gv.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Project3} alt="project-3"></img>
+                </a>
               </Col>
               <Col className="project-info">
                 <h5>World clock</h5>
@@ -151,7 +170,13 @@ export default function Projects() {
             <Row>
               <Col>
                 {" "}
-                <img src={Project4} alt="project-4"></img>
+                <a
+                  href="https://koto-landing-page.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Project4} alt="project-4"></img>
+                </a>
               </Col>
               <Col className="project-info">
                 <h5>Landing page</h5>
