@@ -2,29 +2,36 @@ section {
   text-align: center;
 }
 
-.navbar {
-  background-color: aliceblue;
-}
-.banner {
-  background-color: #abbdcc;
-}
-.about {
-  background-color: #9dbcd6;
-}
-.projects {
-  background-color: #abbdcc;
-}
-.contact {
-  background-color: #9dbcd6;
-}
-a {
-  text-decoration: none;
-}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
 }
+a {
+  text-decoration: none;
+}
+.navbar {
+  color: aliceblue;
+}
+.theme-btn {
+  padding: 10px;
+  margin: 0;
+  border-color: #333;
+  background-color: white;
+  border-radius: 20px;
+}
+.theme-btn:hover {
+  background-color: #fff !important;
+  border-color: grey;
+}
 
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #279aba;
+  color: #333;
+}
 .header-img {
   width: 300px;
 }
@@ -46,7 +53,7 @@ html {
 
 .project-card {
   border-radius: 10px;
-  background-color: whitesmoke;
+  background-color: rgba(255, 252, 252, 0.2);
   margin: 10px;
   padding: 10px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);

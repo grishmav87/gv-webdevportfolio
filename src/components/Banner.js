@@ -12,7 +12,7 @@ import {
 
 export default function Banner() {
   return (
-    <section className="banner pt-3 pb-3" id="home">
+    <section className="banner pt-5 pb-3" id="home">
       <Container>
         <Row className="align-items-center ">
           <Col xs={12} md={6} xl={7}>

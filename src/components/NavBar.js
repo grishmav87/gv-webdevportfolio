@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Button } from "react-bootstrap";
 
 export default function NavBar() {
   const [activeLink, setActiveLink] = useState("");
   const [scrolled, setScrolled] = useState(false);
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
     const onScroll = () => {
@@ -20,14 +21,31 @@ export default function NavBar() {
   function onUpdateActiveLink(value) {
     setActiveLink(value);
   }
-
+  function toggleTheme(event) {
+    event.preventDefault();
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  }
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">Grishma Vadlamani</Navbar.Brand>
+        <Navbar.Brand className="navbar-dark" href="#home">
+          Grishma Vadlamani
+        </Navbar.Brand>
+        <div className={theme}>
+          <Button className="theme-btn" onClick={toggleTheme}>
+            {" "}
+          </Button>
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto navbar-dark">
             <Nav.Link
               href="#home"
               className={
