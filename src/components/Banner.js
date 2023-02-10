@@ -52,7 +52,7 @@ export default function Banner() {
                 </div>
               </Col>
             </Row>
-            <Button className="mt-2">
+            <Button className="mt-2 contact-btn">
               <a href="#contact">
                 Let's connect <ArrowRightCircle size={15} />
               </a>

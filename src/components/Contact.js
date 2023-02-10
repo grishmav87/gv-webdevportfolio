@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -13,30 +13,36 @@ export default function Contact() {
 
         <Row className="contact-info pt-2 pb-3">
           <Col>
-            <a
-              href="https://www.linkedin.com/in/grishma-vadlamani/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-            </a>
+            <Button className="contact-btn">
+              <a
+                href="https://www.linkedin.com/in/grishma-vadlamani/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+              </a>
+            </Button>
           </Col>
           <Col>
-            <a
-              href="https://github.com/grishmav87"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <FontAwesomeIcon icon={faGithub} /> GitHub
-            </a>
+            <Button className="contact-btn">
+              <a
+                href="https://github.com/grishmav87"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <FontAwesomeIcon icon={faGithub} /> GitHub
+              </a>
+            </Button>
           </Col>
           <Col>
-            <a href="mailto:grishma.vadlamani@gmail.com">
-              {" "}
-              <FontAwesomeIcon icon={faEnvelope} /> Email
-            </a>
+            <Button className="contact-btn">
+              <a href="mailto:grishma.vadlamani@gmail.com">
+                {" "}
+                <FontAwesomeIcon icon={faEnvelope} /> Email
+              </a>
+            </Button>
           </Col>
         </Row>
         <p>

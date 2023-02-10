@@ -9,8 +9,8 @@ html {
 a {
   text-decoration: none;
 }
-.navbar {
-  color: aliceblue;
+section {
+  background-color: rgba(255, 252, 252, 0.2);
 }
 .theme-btn {
   padding: 10px;
@@ -25,7 +25,10 @@ a {
 }
 
 .dark {
-  background-color: #333;
+  background-color: #091a4b;
+  color: #fff;
+}
+.dark a {
   color: #fff;
 }
 .light {
@@ -35,14 +38,14 @@ a {
 .header-img {
   width: 300px;
 }
-.banner Button {
+.contact-btn {
   background-color: sienna !important;
   border: none;
 }
-.banner Button:hover {
+.contact-btn:hover {
   background-color: saddlebrown !important;
 }
-.banner a {
+.contact-btn a {
   text-decoration: none;
   color: white;
 }
@@ -55,7 +58,7 @@ a {
   border-radius: 10px;
   background-color: rgba(255, 252, 252, 0.2);
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 .projects img {
@@ -96,11 +99,6 @@ a {
   margin: 0;
 }
 
-.contact a {
-  text-decoration: none;
-  color: sienna;
-  font-size: 18px;
-}
 .contact a:hover {
   color: saddlebrown;
   transition: ease-in-out 150ms;
