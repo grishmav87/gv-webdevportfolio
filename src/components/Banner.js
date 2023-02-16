@@ -12,8 +12,8 @@ import {
 
 export default function Banner() {
   return (
-    <section className="banner pt-5 pb-3" id="home">
-      <Container>
+    <Container>
+      <section className="banner pt-5 pb-3 " id="home">
         <Row className="align-items-center ">
           <Col xs={12} md={6} xl={7}>
             <h5>Hi!</h5>
@@ -65,8 +65,8 @@ export default function Banner() {
               className="header-img img-fluid rotate pt-4"
             ></img>
           </Col>
-        </Row>
-      </Container>
-    </section>
+        </Row>{" "}
+      </section>
+    </Container>
   );
 }

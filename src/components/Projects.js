@@ -25,8 +25,8 @@ export default function Projects() {
     },
   };
   return (
-    <section className="projects pt-3 pb-3" id="projects">
-      <Container>
+    <Container>
+      <section className="projects pt-3 pb-3" id="projects">
         <h2>Projects</h2>
         <Carousel
           swipeable={true}
@@ -208,7 +208,7 @@ export default function Projects() {
             </div>
           </div>
         </Carousel>
-      </Container>
-    </section>
+      </section>{" "}
+    </Container>
   );
 }

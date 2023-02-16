@@ -3,8 +3,8 @@ import CV from "../assets/Grishma_CVEd.pdf";
 
 export default function Skills() {
   return (
-    <section className="about pt-3 pb-3" id="about">
-      <Container>
+    <Container>
+      <section className="about pt-3 pb-3 " id="about">
         <h2>About</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -20,7 +20,7 @@ export default function Skills() {
             Download CV
           </a>
         </Button>
-      </Container>
-    </section>
+      </section>
+    </Container>
   );
 }
