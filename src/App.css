@@ -2,7 +2,7 @@ section {
   text-align: center;
   background-color: rgba(255, 252, 252, 0);
   border-radius: 10px;
-  background-color: rgba(5, 52, 184, 0.5);
+  background-color: rgba(5, 52, 184, 0.7);
   margin: 10px;
   padding: 20px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -32,7 +32,6 @@ a {
   color: #fff;
 }
 .light {
-  background-image: url("assets/background-light.jpg");
   color: #fff;
 }
 .header-img {
@@ -99,15 +98,4 @@ a {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-.rotate {
-  animation: rotation 5s infinite linear alternate;
-}
-@keyframes rotation {
-  from {
-    transform: rotate(10deg);
-  }
-  to {
-    transform: rotate(-10deg);
-  }
 }
