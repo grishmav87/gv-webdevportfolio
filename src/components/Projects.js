@@ -5,6 +5,7 @@ import Project1 from "../assets/Project1.PNG";
 import Project2 from "../assets/Project2.PNG";
 import Project3 from "../assets/Project3.PNG";
 import Project4 from "../assets/Project4.PNG";
+import Project5 from "../assets/Project5.PNG";
 
 export default function Projects() {
   const responsive = {
@@ -63,24 +64,23 @@ export default function Projects() {
               </Col>
             </Row>
             <div className="project-btns d-flex">
-              <Button>
-                <a
-                  href="https://weather-app-react-gv.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View project
-                </a>
-              </Button>
-              <Button>
-                <a
-                  href="https://github.com/grishmav87/weather-app-react"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View code
-                </a>
-              </Button>
+              <a
+                href="https://weather-app-react-gv.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View project
+              </a>
+
+              <a
+                href="https://github.com/grishmav87/weather-app-react"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View code
+              </a>
             </div>
           </div>
           <div className="project-card">
@@ -105,24 +105,23 @@ export default function Projects() {
               </Col>
             </Row>{" "}
             <div className="project-btns d-flex">
-              <Button>
-                <a
-                  href="https://gilded-phoenix-721b05.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View project
-                </a>
-              </Button>
-              <Button>
-                <a
-                  href="https://github.com/grishmav87/dictionary-app-react"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View code
-                </a>
-              </Button>
+              <a
+                href="https://gilded-phoenix-721b05.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View project
+              </a>
+
+              <a
+                href="https://github.com/grishmav87/dictionary-app-react"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View code
+              </a>
             </div>
           </div>
           <div className="project-card">
@@ -146,24 +145,23 @@ export default function Projects() {
               </Col>
             </Row>{" "}
             <div className="project-btns d-flex">
-              <Button>
-                <a
-                  href="https://world-clock-gv.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View project
-                </a>
-              </Button>
-              <Button>
-                <a
-                  href="https://github.com/grishmav87/world-clock-project"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View code
-                </a>
-              </Button>
+              <a
+                href="https://world-clock-gv.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View project
+              </a>
+
+              <a
+                href="https://github.com/grishmav87/world-clock-project"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View code
+              </a>
             </div>
           </div>
           <div className="project-card">
@@ -187,24 +185,60 @@ export default function Projects() {
               </Col>
             </Row>
             <div className="project-btns d-flex">
-              <Button>
+              <a
+                href="https://koto-landing-page.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View project
+              </a>
+
+              <a
+                href="https://github.com/grishmav87/koto-project"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View code
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <Row>
+              <Col>
+                {" "}
                 <a
-                  href="https://koto-landing-page.netlify.app/"
+                  href="https://artist-portfolio-gv.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View project
+                  <img src={Project5} alt="project-5"></img>
                 </a>
-              </Button>
-              <Button>
-                <a
-                  href="https://github.com/grishmav87/koto-project"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View code
-                </a>
-              </Button>
+              </Col>
+              <Col className="project-info">
+                <h5>Art portfolio site</h5>
+                <p>Mock artist portfolio page</p>
+              </Col>
+            </Row>
+            <div className="project-btns d-flex">
+              <a
+                href="https://artist-portfolio-gv.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View project
+              </a>
+
+              <a
+                href="https://github.com/grishmav87/art-portfolio-project"
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                View code
+              </a>
             </div>
           </div>
         </Carousel>

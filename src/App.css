@@ -1,11 +1,8 @@
 section {
   text-align: center;
-  background-color: rgba(255, 252, 252, 0);
-  border-radius: 10px;
-  background-color: rgba(5, 52, 184, 0.7);
+
   margin: 10px;
   padding: 20px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 html {
   scroll-behavior: smooth;
@@ -28,27 +25,32 @@ a {
   border-color: grey !important;
 }
 .dark {
-  background-color: #091a4b;
+  background-color: #000;
   color: #fff;
 }
 .light {
-  color: #fff;
+  color: #000;
 }
 .header-img {
   width: 300px;
 }
 .contact-btn {
-  background-color: sienna !important;
-  border: none;
+  background-color: white !important;
+  border-radius: 10px;
+  padding: 3px 10px;
+  border-color: black;
 }
+
 .contact-btn:hover {
-  background-color: saddlebrown !important;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  border-color: black;
   transition: ease-in-out 150ms;
 }
 .contact-btn a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
+
 .skills-icons {
   text-align: center;
   font-size: 12px;
@@ -56,7 +58,7 @@ a {
 
 .project-card {
   border-radius: 10px;
-  background-color: rgba(39, 198, 237, 0.6);
+  background-color: rgba(171, 173, 174, 0.2);
   margin: 10px;
   padding: 20px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -75,6 +77,23 @@ a {
   flex-direction: column;
   margin: auto;
 }
+.project-btn {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 3px 10px;
+  margin: 3px;
+}
+.project-btn:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: ease-in-out 150ms;
+}
+.project-btn a,
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .project-btns Button {
   background-color: sienna !important;
   border: none;
@@ -88,9 +107,7 @@ a {
   background-color: saddlebrown !important;
   transition: ease-in-out 150ms;
 }
-.projects a {
-  color: white;
-}
+
 .contact Img {
   max-width: 50%;
 }
