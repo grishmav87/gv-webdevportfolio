@@ -25,7 +25,9 @@ a {
   border-color: grey !important;
 }
 .dark {
-  background-color: #000;
+  background-image: url("assets/starry-sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 .light {
