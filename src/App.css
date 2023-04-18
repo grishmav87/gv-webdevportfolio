@@ -21,6 +21,7 @@ a {
 .theme-btn:hover {
   cursor: pointer;
   color: fuchsia;
+  transition: ease-in-out 150ms;
   background-color: #091a4b !important;
 }
 .dark {
