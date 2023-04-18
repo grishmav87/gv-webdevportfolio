@@ -31,7 +31,10 @@ a {
   color: #fff;
 }
 .light {
-  color: #000;
+  background-image: url("assets/dawn-sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 .header-img {
   width: 300px;
