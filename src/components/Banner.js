@@ -2,6 +2,9 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import dawnImg from "../assets/dawn-selfie.png";
 import nightImg from "../assets/night-selfie.png";
+import procreateIcon from "../assets/procreate-logo.png";
+import illustratorIcon from "../assets/illustrator-logo.png";
+import photoshopIcon from "../assets/photoshop-logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -19,7 +22,7 @@ export default function Banner() {
           <Col xs={12} md={6} xl={7}>
             <h5>Hi!</h5>
             <h1>I'm Grishma,</h1>
-            <h2>Front end developer</h2>
+            <h3>Web designer and developer</h3>
             <Row className="pt-3 pb-3">
               <Col>
                 <div className="skills-icons">
@@ -46,10 +49,33 @@ export default function Banner() {
                   CSS
                 </div>
               </Col>
+            </Row>
+            <Row className="pt-3 pb-3">
               <Col>
                 <div className="skills-icons">
                   <FontAwesomeIcon icon={faBootstrap} size="2x" /> <br />
                   Bootstrap
+                </div>
+              </Col>
+              <Col>
+                <div className="skills-icons">
+                  <img className="design-icon" src={photoshopIcon} />
+                  <br />
+                  Photoshop
+                </div>
+              </Col>
+              <Col>
+                <div className="skills-icons">
+                  <img className="design-icon" src={illustratorIcon} />
+                  <br />
+                  Illustrator
+                </div>
+              </Col>
+              <Col>
+                <div className="skills-icons">
+                  <img className="design-icon" src={procreateIcon} />
+                  <br />
+                  Procreate
                 </div>
               </Col>
             </Row>
