@@ -1,7 +1,7 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import dawnImg from "../assets/dawn-selfie.png";
-import nightImg from "../assets/night-selfie.png";
+
 import procreateIcon from "../assets/procreate-logo.png";
 import illustratorIcon from "../assets/illustrator-logo.png";
 import photoshopIcon from "../assets/photoshop-logo.png";
@@ -59,21 +59,33 @@ export default function Banner() {
               </Col>
               <Col>
                 <div className="skills-icons">
-                  <img className="design-icon" src={photoshopIcon} />
+                  <img
+                    className="design-icon"
+                    src={photoshopIcon}
+                    alt="photoshop-logo"
+                  />
                   <br />
                   Photoshop
                 </div>
               </Col>
               <Col>
                 <div className="skills-icons">
-                  <img className="design-icon" src={illustratorIcon} />
+                  <img
+                    className="design-icon"
+                    src={illustratorIcon}
+                    alt="illustrator-logo"
+                  />
                   <br />
                   Illustrator
                 </div>
               </Col>
               <Col>
                 <div className="skills-icons">
-                  <img className="design-icon" src={procreateIcon} />
+                  <img
+                    className="design-icon"
+                    src={procreateIcon}
+                    alt="procreate-logo"
+                  />
                   <br />
                   Procreate
                 </div>
