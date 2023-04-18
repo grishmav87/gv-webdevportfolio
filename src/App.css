@@ -50,7 +50,7 @@ a {
 }
 
 .contact-btn:hover {
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 3px 3px 2px rgba(206, 56, 186, 0.5);
   border-color: black;
   transition: ease-in-out 150ms;
 }
@@ -90,10 +90,10 @@ a {
   background-color: white;
   border-radius: 10px;
   padding: 3px 10px;
-  margin: 3px;
+  margin: 7px;
 }
 .project-btn:hover {
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 3px 3px 2px rgba(206, 56, 186, 0.5);
   transition: ease-in-out 150ms;
 }
 .project-btn a,
