@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
@@ -38,11 +38,7 @@ export default function NavBar() {
         <Navbar.Brand className="navbar-dark" href="#home">
           Grishma Vadlamani
         </Navbar.Brand>
-        <div className={theme}>
-          <Button className="theme-btn" onClick={toggleTheme}>
-            {" "}
-          </Button>
-        </div>
+
         <Navbar.Toggle
           className="navbar-dark"
           aria-controls="basic-navbar-nav"
@@ -87,6 +83,11 @@ export default function NavBar() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <div className={theme}>
+          <div className="theme-btn" onClick={toggleTheme}>
+            Change theme
+          </div>
+        </div>
       </Container>
     </Navbar>
   );

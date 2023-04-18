@@ -1,6 +1,7 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/Selfie.png";
+import dawnImg from "../assets/dawn-selfie.png";
+import nightImg from "../assets/night-selfie.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -60,10 +61,10 @@ export default function Banner() {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img
-              src={headerImg}
-              alt="header-img"
+              src={dawnImg}
+              alt="dawn-img"
               className="header-img img-fluid  pt-4"
-            ></img>
+            />
           </Col>
         </Row>{" "}
       </section>
