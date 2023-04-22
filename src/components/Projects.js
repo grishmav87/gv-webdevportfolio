@@ -29,219 +29,222 @@ export default function Projects() {
     <Container>
       <section className="projects pt-3 pb-3" id="projects">
         <h2>Projects</h2>
-        <Carousel
-          swipeable={true}
-          draggable={true}
-          showDots={true}
-          renderButtonGroupOutside={false}
-          renderDotsOutside={false}
-          responsive={responsive}
-          ssr={true} // means to render carousel on server-side.
-          infinite={true}
-          keyBoardControl={true}
-          customTransition="all .5"
-          transitionDuration={500}
-          dotListClass="custom-dot-list-style"
-        >
-          <div className="project-card">
-            <Row>
-              <Col>
-                {" "}
+        <div className="carousel-wrapper">
+          <Carousel
+            className="carousel"
+            swipeable={true}
+            draggable={true}
+            showDots={true}
+            renderButtonGroupOutside={false}
+            renderDotsOutside={false}
+            responsive={responsive}
+            ssr={true} // means to render carousel on server-side.
+            infinite={true}
+            keyBoardControl={true}
+            customTransition="all .5"
+            transitionDuration={500}
+            dotListClass="custom-dot-list-style"
+          >
+            <div className="project-card">
+              <Row>
+                <Col>
+                  {" "}
+                  <a
+                    href="https://weather-app-react-gv.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={Project1} alt="project-1"></img>
+                  </a>{" "}
+                </Col>
+                <Col className="project-info ">
+                  <h5>Weather app</h5>
+                  <p>
+                    Built using React, the app returns local weather information
+                    and location for the input city
+                  </p>
+                </Col>
+              </Row>
+              <div className="project-btns d-flex">
                 <a
                   href="https://weather-app-react-gv.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  className="project-btn"
                 >
-                  <img src={Project1} alt="project-1"></img>
-                </a>{" "}
-              </Col>
-              <Col className="project-info ">
-                <h5>Weather app</h5>
-                <p>
-                  Built using React, the app returns local weather information
-                  and location for the input city
-                </p>
-              </Col>
-            </Row>
-            <div className="project-btns d-flex">
-              <a
-                href="https://weather-app-react-gv.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View project
-              </a>
+                  View project
+                </a>
 
-              <a
-                href="https://github.com/grishmav87/weather-app-react"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View code
-              </a>
+                <a
+                  href="https://github.com/grishmav87/weather-app-react"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn"
+                >
+                  View code
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="project-card">
-            <Row>
-              <Col>
-                {" "}
+            <div className="project-card">
+              <Row>
+                <Col>
+                  {" "}
+                  <a
+                    href="https://gilded-phoenix-721b05.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <img src={Project2} alt="project-2"></img>
+                  </a>
+                </Col>
+                <Col className="project-info">
+                  <h5>Dictionary app</h5>
+                  <p>
+                    Built using React, the app returns dictionary and image
+                    results for the input word
+                  </p>
+                </Col>
+              </Row>{" "}
+              <div className="project-btns d-flex">
                 <a
                   href="https://gilded-phoenix-721b05.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  className="project-btn"
                 >
-                  {" "}
-                  <img src={Project2} alt="project-2"></img>
+                  View project
                 </a>
-              </Col>
-              <Col className="project-info">
-                <h5>Dictionary app</h5>
-                <p>
-                  Built using React, the app returns dictionary and image
-                  results for the input word
-                </p>
-              </Col>
-            </Row>{" "}
-            <div className="project-btns d-flex">
-              <a
-                href="https://gilded-phoenix-721b05.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View project
-              </a>
 
-              <a
-                href="https://github.com/grishmav87/dictionary-app-react"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View code
-              </a>
+                <a
+                  href="https://github.com/grishmav87/dictionary-app-react"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn"
+                >
+                  View code
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="project-card">
-            <Row>
-              <Col>
-                {" "}
+            <div className="project-card">
+              <Row>
+                <Col>
+                  {" "}
+                  <a
+                    href="https://world-clock-gv.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={Project3} alt="project-3"></img>
+                  </a>
+                </Col>
+                <Col className="project-info">
+                  <h5>World clock</h5>
+                  <p>
+                    Built using Moment.js, the app returns current times for
+                    selected cities.
+                  </p>
+                </Col>
+              </Row>{" "}
+              <div className="project-btns d-flex">
                 <a
                   href="https://world-clock-gv.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  className="project-btn"
                 >
-                  <img src={Project3} alt="project-3"></img>
+                  View project
                 </a>
-              </Col>
-              <Col className="project-info">
-                <h5>World clock</h5>
-                <p>
-                  Built using Moment.js, the app returns current times for
-                  selected cities.
-                </p>
-              </Col>
-            </Row>{" "}
-            <div className="project-btns d-flex">
-              <a
-                href="https://world-clock-gv.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View project
-              </a>
 
-              <a
-                href="https://github.com/grishmav87/world-clock-project"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View code
-              </a>
+                <a
+                  href="https://github.com/grishmav87/world-clock-project"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn"
+                >
+                  View code
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="project-card">
-            <Row>
-              <Col>
-                {" "}
+            <div className="project-card">
+              <Row>
+                <Col>
+                  {" "}
+                  <a
+                    href="https://koto-landing-page.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={Project4} alt="project-4"></img>
+                  </a>
+                </Col>
+                <Col className="project-info">
+                  <h5>Landing page</h5>
+                  <p>
+                    Responsive landing page built using CSS grids with embedded
+                    music and videos.
+                  </p>
+                </Col>
+              </Row>
+              <div className="project-btns d-flex">
                 <a
                   href="https://koto-landing-page.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  className="project-btn"
                 >
-                  <img src={Project4} alt="project-4"></img>
+                  View project
                 </a>
-              </Col>
-              <Col className="project-info">
-                <h5>Landing page</h5>
-                <p>
-                  Responsive landing page built using CSS grids with embedded
-                  music and videos.
-                </p>
-              </Col>
-            </Row>
-            <div className="project-btns d-flex">
-              <a
-                href="https://koto-landing-page.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View project
-              </a>
 
-              <a
-                href="https://github.com/grishmav87/koto-project"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View code
-              </a>
+                <a
+                  href="https://github.com/grishmav87/koto-project"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn"
+                >
+                  View code
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="project-card">
-            <Row>
-              <Col>
-                {" "}
+            <div className="project-card">
+              <Row>
+                <Col>
+                  {" "}
+                  <a
+                    href="https://artist-portfolio-gv.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={Project5} alt="project-5"></img>
+                  </a>
+                </Col>
+                <Col className="project-info">
+                  <h5>Art portfolio site</h5>
+                  <p>Mock artist portfolio page</p>
+                </Col>
+              </Row>
+              <div className="project-btns d-flex">
                 <a
                   href="https://artist-portfolio-gv.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  className="project-btn"
                 >
-                  <img src={Project5} alt="project-5"></img>
+                  View project
                 </a>
-              </Col>
-              <Col className="project-info">
-                <h5>Art portfolio site</h5>
-                <p>Mock artist portfolio page</p>
-              </Col>
-            </Row>
-            <div className="project-btns d-flex">
-              <a
-                href="https://artist-portfolio-gv.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View project
-              </a>
 
-              <a
-                href="https://github.com/grishmav87/art-portfolio-project"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                View code
-              </a>
+                <a
+                  href="https://github.com/grishmav87/art-portfolio-project"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn"
+                >
+                  View code
+                </a>
+              </div>
             </div>
-          </div>
-        </Carousel>
+          </Carousel>
+        </div>
       </section>{" "}
     </Container>
   );

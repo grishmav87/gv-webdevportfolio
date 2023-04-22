@@ -11,8 +11,12 @@ html {
 a {
   text-decoration: none;
 }
-.navbar-link a {
-  font-size: 16px;
+.navbar-brand {
+  font-weight: 500;
+}
+.navbar-link {
+  font-weight: 200;
+  font-size: 20px;
 }
 .theme-btn {
   padding: 0px;
@@ -66,6 +70,14 @@ a {
 }
 .design-icon {
   width: 28px;
+}
+
+.carousel .react-multiple-carousel__arrow--left {
+  left: calc(0px);
+}
+
+.carousel .react-multiple-carousel__arrow--right {
+  right: calc(0px);
 }
 
 .project-card {
