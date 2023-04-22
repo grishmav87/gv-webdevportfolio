@@ -11,7 +11,9 @@ html {
 a {
   text-decoration: none;
 }
-
+.navbar-link a {
+  font-size: 16px;
+}
 .theme-btn {
   padding: 0px;
   line-height: 0;
@@ -123,4 +125,31 @@ a:hover {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+@media (max-width: 576px) {
+  section {
+    margin: 0px;
+  }
+
+  .theme-btn,
+  .navbar-link {
+    font-size: smaller;
+  }
+  .design-icon {
+    width: 24px;
+  }
+  .skills-icons {
+    font-size: 11px;
+  }
+}
+@media (max-width: 320px) {
+  section {
+    margin: 0px;
+  }
+  .design-icon {
+    width: 18px;
+  }
+  .skills-icons {
+    font-size: 8px;
+  }
 }

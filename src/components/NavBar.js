@@ -44,7 +44,7 @@ export default function NavBar() {
           aria-controls="basic-navbar-nav"
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto navbar-dark">
+          <Nav className="me-auto navbar-dark mt-3 mb-3">
             <Nav.Link
               href="#home"
               className={
@@ -83,10 +83,9 @@ export default function NavBar() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <div className={theme}>
-          <div className="theme-btn" onClick={toggleTheme}>
-            Change theme
-          </div>
+
+        <div className="theme-btn" onClick={toggleTheme}>
+          Change theme
         </div>
       </Container>
     </Navbar>

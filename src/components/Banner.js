@@ -22,7 +22,7 @@ export default function Banner() {
           <Col xs={12} md={6} xl={7}>
             <h5>Hi!</h5>
             <h1>I'm Grishma,</h1>
-            <h3>Web designer and developer</h3>
+            <h3>Web developer and designer</h3>
             <Row className="pt-3 pb-3">
               <Col>
                 <div className="skills-icons">
