@@ -7,13 +7,12 @@ export default function Skills() {
       <section className="about pt-3 pb-3 " id="about">
         <h2>About</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I am fascinated by how things work - be it the inner workings of a
+          biological organism or a human-made machine. I appreciate that a
+          well-crafted mechanism is beautiful in its efficiency, and I also love
+          when it is aesthetically pleasing. With my passion for science,
+          technology and the arts, I'm inclined to build things that fulfil
+          their intended purpose <em>and</em> look good.{" "}
         </p>
         <Button className="contact-btn">
           <a href={CV} download>
