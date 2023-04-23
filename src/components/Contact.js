@@ -46,7 +46,14 @@ export default function Contact() {
           </Col>
         </Row>
         <footer className="pt-4">
-          <FontAwesomeIcon icon={faCopyright} /> 2023 All rights reserved
+          <FontAwesomeIcon icon={faCopyright} /> 2023 All rights reserved{" "}
+          <a
+            href="https://github.com/grishmav87/gv-webdevportfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            (Open-source code)
+          </a>
         </footer>
       </section>
     </Container>
