@@ -3,20 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
-  const [scrolled, setScrolled] = useState(false);
   const [theme, setTheme] = useState("light");
-
-  useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   function onUpdateActiveLink(value) {
     setActiveLink(value);
@@ -33,7 +20,7 @@ export default function NavBar() {
     document.body.className = theme;
   }, [theme]);
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand className="navbar-dark" href="#home">
           Grishma Vadlamani
@@ -55,13 +42,13 @@ export default function NavBar() {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#about"
+              href="#skills"
               className={
-                activeLink === "about" ? "active navbar-link" : "navbar-link"
+                activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
               onClick={onUpdateActiveLink}
             >
-              About
+              Skills
             </Nav.Link>
             <Nav.Link
               href="#projects"

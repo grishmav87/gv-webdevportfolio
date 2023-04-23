@@ -15,7 +15,7 @@ import {
 export default function Skills() {
   return (
     <Container>
-      <section className="about pt-3 pb-3 " id="about">
+      <section className="about pt-3 pb-3 " id="skills">
         <h2>Skills</h2>
         <Row className="pt-3 pb-3">
           <Col>

@@ -11,6 +11,11 @@ html {
 a {
   text-decoration: none;
 }
+.banner h3,
+h5,
+p {
+  font-size: larger;
+}
 .navbar-brand {
   font-weight: 500;
 }
@@ -54,6 +59,7 @@ a {
   border-radius: 10px;
   padding: 3px 10px;
   border-color: black;
+  font-size: 18px;
 }
 
 .contact-btn:hover {
@@ -68,7 +74,7 @@ a {
 
 .skills-icons {
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
 }
 .design-icon {
   width: 28px;
@@ -102,6 +108,7 @@ a {
 .project-btns {
   flex-direction: column;
   margin: auto;
+  font-size: 18px;
 }
 .project-btn {
   color: black;
@@ -140,6 +147,7 @@ a:hover {
   padding: 0;
   margin: 0;
 }
+
 @media (max-width: 576px) {
   section {
     margin: 0px;
@@ -161,6 +169,9 @@ a:hover {
   }
   .contact-btn,
   .project-btn {
+    font-size: 12px;
+  }
+  footer {
     font-size: 12px;
   }
 }
