@@ -144,7 +144,11 @@ a:hover {
   section {
     margin: 0px;
   }
-
+  .banner h3,
+  h5,
+  p {
+    font-size: smaller;
+  }
   .theme-btn,
   .navbar-link {
     font-size: smaller;
@@ -155,15 +159,7 @@ a:hover {
   .skills-icons {
     font-size: 11px;
   }
-}
-@media (max-width: 320px) {
-  section {
-    margin: 0px;
-  }
-  .design-icon {
-    width: 18px;
-  }
-  .skills-icons {
-    font-size: 8px;
+  .contact-btn {
+    font-size: 12px;
   }
 }
