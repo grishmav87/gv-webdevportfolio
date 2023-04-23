@@ -85,7 +85,7 @@ export default function Skills() {
             </div>
           </Col>
         </Row>
-
+        <br />
         <Button className="contact-btn">
           <a href={CV} download>
             Download CV

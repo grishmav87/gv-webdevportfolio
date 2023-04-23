@@ -159,7 +159,8 @@ a:hover {
   .skills-icons {
     font-size: 11px;
   }
-  .contact-btn {
+  .contact-btn,
+  .project-btn {
     font-size: 12px;
   }
 }

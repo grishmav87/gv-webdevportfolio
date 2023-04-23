@@ -1,11 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Project1 from "../assets/Project1.PNG";
-import Project2 from "../assets/Project2.PNG";
-import Project3 from "../assets/Project3.PNG";
-import Project4 from "../assets/Project4.PNG";
-import Project5 from "../assets/Project5.PNG";
+import Project1 from "../assets/Project1.jpg";
+import Project2 from "../assets/Project2.jpg";
+import Project3 from "../assets/Project3.jpg";
+import Project4 from "../assets/Project4.jpg";
+import Project5 from "../assets/Project5.jpg";
 
 export default function Projects() {
   const responsive = {
@@ -77,6 +77,46 @@ export default function Projects() {
 
                 <a
                   href="https://github.com/grishmav87/weather-app-react"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn"
+                >
+                  View code
+                </a>
+              </div>
+            </div>
+            <div className="project-card">
+              <Row>
+                <Col>
+                  {" "}
+                  <a
+                    href="https://artist-portfolio-gv.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={Project5} alt="project-5"></img>
+                  </a>
+                </Col>
+                <Col className="project-info">
+                  <h5>Art portfolio</h5>
+                  <p>
+                    Responsive mock artist portfolio built using Bootstrap,
+                    designed to showcase artwork.
+                  </p>
+                </Col>
+              </Row>
+              <div className="project-btns d-flex">
+                <a
+                  href="https://artist-portfolio-gv.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn"
+                >
+                  View project
+                </a>
+
+                <a
+                  href="https://github.com/grishmav87/art-portfolio-project"
                   target="_blank"
                   rel="noreferrer"
                   className="project-btn"
@@ -198,43 +238,6 @@ export default function Projects() {
 
                 <a
                   href="https://github.com/grishmav87/koto-project"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="project-btn"
-                >
-                  View code
-                </a>
-              </div>
-            </div>
-            <div className="project-card">
-              <Row>
-                <Col>
-                  {" "}
-                  <a
-                    href="https://artist-portfolio-gv.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={Project5} alt="project-5"></img>
-                  </a>
-                </Col>
-                <Col className="project-info">
-                  <h5>Art portfolio site</h5>
-                  <p>Mock artist portfolio page</p>
-                </Col>
-              </Row>
-              <div className="project-btns d-flex">
-                <a
-                  href="https://artist-portfolio-gv.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="project-btn"
-                >
-                  View project
-                </a>
-
-                <a
-                  href="https://github.com/grishmav87/art-portfolio-project"
                   target="_blank"
                   rel="noreferrer"
                   className="project-btn"
