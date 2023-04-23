@@ -90,7 +90,7 @@ export default function Projects() {
                 <Col>
                   {" "}
                   <a
-                    href="https://gilded-phoenix-721b05.netlify.app/"
+                    href="https://dictionary-react-app-gv.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -108,7 +108,7 @@ export default function Projects() {
               </Row>{" "}
               <div className="project-btns d-flex">
                 <a
-                  href="https://gilded-phoenix-721b05.netlify.app/"
+                  href="https://dictionary-react-app-gv.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   className="project-btn"
