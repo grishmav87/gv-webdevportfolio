@@ -221,8 +221,8 @@ export default function Projects() {
                 <Col className="project-info">
                   <h5>Landing page</h5>
                   <p>
-                    Responsive landing page built using CSS grids with embedded
-                    music and videos.
+                    Responsive page built using CSS grids with embedded music
+                    and videos.
                   </p>
                 </Col>
               </Row>

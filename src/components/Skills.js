@@ -1,5 +1,5 @@
 import { Container, Button, Row, Col } from "react-bootstrap";
-import CV from "../assets/Grishma_CVEd.pdf";
+import CV from "../assets/Grishma_CV.pdf";
 import procreateIcon from "../assets/procreate-logo.png";
 import illustratorIcon from "../assets/illustrator-logo.png";
 import photoshopIcon from "../assets/photoshop-logo.png";
