@@ -38,7 +38,7 @@ export default function Contact() {
           </Col>
           <Col>
             <Button className="contact-btn">
-              <a href="mailto:grishma.vadlamani@gmail.com">
+              <a href="mailto:grishmavee@gmail.com">
                 {" "}
                 <FontAwesomeIcon icon={faEnvelope} /> Email
               </a>
