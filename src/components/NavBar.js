@@ -23,7 +23,7 @@ export default function NavBar() {
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand className="navbar-dark" href="#home">
-          Grishma Vadlamani
+          Grishma V.
         </Navbar.Brand>
 
         <Navbar.Toggle
