@@ -1,5 +1,5 @@
-import { Container, Button, Row, Col } from "react-bootstrap";
-import CV from "../assets/Grishma_CV.pdf";
+import { Container, Row, Col } from "react-bootstrap";
+
 import procreateIcon from "../assets/procreate-logo.png";
 import illustratorIcon from "../assets/illustrator-logo.png";
 import photoshopIcon from "../assets/photoshop-logo.png";
@@ -86,11 +86,6 @@ export default function Skills() {
           </Col>
         </Row>
         <br />
-        <Button className="contact-btn">
-          <a href={CV} download>
-            Download CV
-          </a>
-        </Button>
       </section>
     </Container>
   );
